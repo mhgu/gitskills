@@ -1,0 +1,37 @@
+起源于 Linus， 流行于 Google 的 github。
+仓库，英文名repository
+
+git init 把当前目录变成Git可以管理的仓库， 有 .git 的目录。
+
+
+工作区（Working Directory）
+版本库（Repository）就是隐藏目录.git。
+	暂存区（stage）
+	主分支（branch master）
+
+
+git add
+git commint 
+git status
+git log
+git reflog
+git rm
+git checkout —- file
+git reset HEAD file
+
+
+git diff
+
+
+关联一个远程库，使用命令：git remote add origin git@server-name:path/repo-name.git。
+关联后，使用命令：git push -u origin master 第一次推送master分支的所有内容；
+此后，每次本地提交后，只要有必要，就可以使用命令：git push origin master 推送最新修改。
+加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来。
+
+GitHub给出的地址不止一个，还可以用https://github.com/michaelliao/gitskills.git这样的地址。实际上，Git支持多种协议，默认的git://使用ssh，但也可以使用https等其他协议。
+
+使用https除了速度慢以外，还有个最大的麻烦是每次推送都必须输入口令，但是在某些只开放http端口的公司内部就无法使用ssh协议而只能用https。
+
+
+
+
