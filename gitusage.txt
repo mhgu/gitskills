@@ -34,7 +34,8 @@ git push -u origin master
 
 第一次推送master分支的所有内容；
 
-此后，每次本地提交后，只要有必要，就可以使用命令：git push origin master 推送最新修改。
+此后，每次本地提交后，只要有必要，使用命令：
+git push origin master 推送最新修改就可以。
 
 加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来。
 
