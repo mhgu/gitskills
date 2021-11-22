@@ -14,7 +14,7 @@ git init 把当前目录变成Git可以管理的仓库， 有 .git 的目录。
 git add
 git commint 
 git status
-git log
+git logp
 git reflog
 git rm
 git checkout —- file
